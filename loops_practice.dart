@@ -11,6 +11,8 @@ void main() {
       isLogin = true;
     } else {
       print("Login Failed");
+      email = (stdin.readLineSync()!);
+      password = (stdin.readLineSync()!);
     }
   }
 }
