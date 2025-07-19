@@ -49,3 +49,23 @@ studentMarkSheet(String name, num english, num physics, num math) {
 //   num result = num1 + num2;
 //   return result;
 // }
+
+
+// 3: Another Example of Parameter 
+
+// void main() {
+//   studentMarkSheet("Ahmed", 87, 78, 90);
+//   studentMarkSheet("Usman", 68, 77, 70);
+//   studentMarkSheet("Bilal", 38, 46, 55);
+// }
+
+// studentMarkSheet(String name, num english, num physics, num math) {
+//   num obtainMarks = english + physics + math;
+//   num percentage = (obtainMarks / 300) * 100;
+
+//   if (percentage > 50) {
+//     print('$name pass and $percentage');
+//   } else {
+//     print('$name fail and $percentage');
+//   }
+// }
