@@ -1,18 +1,15 @@
 void main() {
-  studentMarkSheet("Ahmed", 87, 78, 90);
-  studentMarkSheet("Usman", 68, 77, 70);
-  studentMarkSheet("Bilal", 38, 46, 55);
+  List<int> numbers = [4, 5, 2, 7, 9];
+  for (var i in numbers) {
+    numberTable(i);
+  }
 }
 
-studentMarkSheet(String name, num english, num physics, num math) {
-  num obtainMarks = english + physics + math;
-  num percentage = (obtainMarks / 300) * 100;
-
-  if (percentage > 50) {
-    print('$name pass and $percentage');
-  } else {
-    print('$name fail and $percentage');
+numberTable(num number) {
+  for (var i = 1; i <= 10; i++) {
+    print("$number x $i = ${number * i}");
   }
+  print("=================");
 }
 
 // 1; Functions Repractice 
@@ -68,4 +65,24 @@ studentMarkSheet(String name, num english, num physics, num math) {
 //   } else {
 //     print('$name fail and $percentage');
 //   }
+// }
+
+// 4: Another Example : isme apko bar bar function call karwany ki
+// zaroort nhi hai , Ex; ager apko 1000 different table print
+// karwany hain tw ap 1000 time to function call nahi krenge
+// code ko short or simple reabable rakhny kay liye list me wo 
+// number provide kr denge .
+
+// void main() {
+//   List<int> numbers = [4, 5, 2, 7, 9];
+//   for (var i in numbers) {
+//     numberTable(i);
+//   }
+// }
+
+// numberTable(num number) {
+//   for (var i = 1; i <= 10; i++) {
+//     print("$number x $i = ${number * i}");
+//   }
+//   print("=================");
 // }
