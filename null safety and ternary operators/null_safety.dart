@@ -1,10 +1,10 @@
 void main() {
-  studentInfo();
+  studentInfo(resourceKoKamAtaHaiYaNahi: "Ahmed");
 }
 
-studentInfo({String? fbLink}) {
-  String? ui = fbLink ?? "No Fb Account";
-  print(ui);
+studentInfo({String? resourceKoKamAtaHaiYaNahi}) {
+  String? officeKaCeo = resourceKoKamAtaHaiYaNahi ?? "Usman";
+  print(officeKaCeo);
 }
 
 // 1: ?? yeh hum is liye use krty hain ager koi value null ho tw uski 
@@ -23,3 +23,13 @@ studentInfo({String? fbLink}) {
 //   print(ui);
 // }
 // Output: No Fb Account
+
+// void main() {
+//   studentInfo(fbLink: "FB.Com");
+// }
+
+// studentInfo({String? fbLink}) {
+//   String? ui = fbLink ?? "No Fb Account";
+//   print(ui);
+// }
+// Output: FB.Com
