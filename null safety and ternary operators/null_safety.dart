@@ -33,3 +33,18 @@ studentInfo({String? resourceKoKamAtaHaiYaNahi}) {
 //   print(ui);
 // }
 // Output: FB.Com
+
+// Random Example 
+// is exp me office kay ceo ne flutter ka resource manga or mene
+// Ahmed ko refer kr diya or keh diya check krlo ahmed ko aata hai tw ahmed 
+// ko rakhlo wrna Usman ko rakhlo
+
+// void main() {
+//   studentInfo(resourceKoKamAtaHaiYaNahi: "Ahmed");
+// }
+
+// studentInfo({String? resourceKoKamAtaHaiYaNahi}) {
+//   String? officeKaCeo = resourceKoKamAtaHaiYaNahi ?? "Usman";
+//   print(officeKaCeo);
+// }
+// Output: Ahmed
