@@ -1,9 +1,12 @@
 import 'dart:io';
 
 void main() {
-  for (var i = 1; i < 5; i++) {
+  var rows = 5;
+  var space = " ";
+  for (var i = 1; i < rows; i++) {
+    stdout.write("${space * (rows - i)}");
     for (var j = 1; j <= i; j++) {
-      stdout.write("*");
+      stdout.write("* ");
     }
     print("");
   }
@@ -20,7 +23,7 @@ void main() {
 //   }
 // }
 // Output: 
-// 1
-// 22
-// 333
-// 4444
+// *
+// **
+// ***
+// ****
